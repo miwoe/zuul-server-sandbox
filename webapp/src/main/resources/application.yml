@@ -1,0 +1,9 @@
+server:
+  port: 8081
+  use-forward-headers: true
+#  context-path: /webapp
+eureka:
+  instance:
+    leaseRenewalIntervalInSeconds: 10
+    statusPageUrlPath: /info
+    healthCheckUrlPath: /health
